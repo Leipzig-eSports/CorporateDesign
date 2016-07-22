@@ -5,15 +5,25 @@
 \usepackage{float}
 \usepackage{tabularx}
 \usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
 
 \input{meta}
 \input{colors}
 \input{fonts}
 
 
+\pagestyle{fancy}
 \begin{document}
 
-\title{CD}
+\begin{titlepage}
+\vspace*{\fill}
+\title{Leipzig eSports e.V. Corporate Design}
+\includegraphics[width=\textwidth]{Resources/logo_full.png}
+{\let\newpage\relax\maketitle}
+\vspace*{\fill}
+\end{titlepage}
+
+\cleardoublepage
 
 \tableofcontents
 
@@ -22,7 +32,6 @@
 
 Das folgende Dokument beschreibt das Corporate Design des Vereins Leipzig eSports e.V. und dient als Grundlage für die Gestaltung aller Dokumente die den Verein repräsentieren.
 
-\cleardoublepage
 \section{Der Name und das Kürzel}
 
 Der Verein tritt in der Regel mit dem vollen Vereinsnamen \emph{Leipzig eSports e.V.} auf. Zur Verbesserung des Leseflusses kann das \emph{e.V.} in nicht-formellen Texten wie Artikeln, Blog-Einträgen oder Forenposts weggelassen werden.
@@ -74,57 +83,73 @@ Um das Logo herum ist ein Abstand einzuhalten der mindestens $\sfrac{1}{7}$ der 
 
 \section{Die Schriften}
 
+\begin{samepage}
 \subsection{Titillium Web}
 \fonttest{Titillium Web}
 
 Titillium Web ist die Standardschrift die für alle Texte genutzt wird.
+\end{samepage}
 
 \subsection{Kanit}
+\begin{samepage}
 \fonttest{Kanit}
 
 Kanit wird für alle Überschriften und Titel und ausschlieslich in Fett verwendet.
+\end{samepage}
 
 \section{Die Farben}
 
 \subsection{Primärfarben}
+\begin{samepage}
 \cfield[LESOrange]
 Orange
 \begin{itemize}
 \item HTML \#FF7929 
 \end{itemize}
+\end{samepage}
 
+\begin{samepage}
 \cfield[LESBlue]
 Blau
 \begin{itemize}
 \item HTML \#2E72C9
 \end{itemize}
+\end{samepage}
 
+\begin{samepage}
 \cfield[LESYellow]
 Gelb
 \begin{itemize}
 \item HTML \#FFD129 
 \end{itemize}
+\end{samepage}
 
 Die Primärfarben orientieren sich an den bisher benutzten Vereinsfarben und sind nur leicht abgeändert, um etwas kräftiger zu wirken. Sie finden sich nicht nur im Logo sondern auch in hervorhebenden Gestaltungselementen.
 
 \subsection{Sekundärfarben}
+\begin{samepage}
 \cfield[SECLight]
 Helles Grau
 \begin{itemize}
 \item HTML \#b4b8bd
 \end{itemize}
+\end{samepage}
 
+\begin{samepage}
 \cfield[SECMedium]
 Mittleres Grau
 \begin{itemize}
 \item HTML \#555555
 \end{itemize}
+\end{samepage}
 
+\begin{samepage}
 \cfield[SECDark]
 Dunkles Grau
 \begin{itemize}
 \item HTML \#333333
 \end{itemize}
+\end{samepage}
 
 Die Sekundärfarben dienen hauptsächlich als Hintergrund- oder Füllfarben. Das helle Grau hat eine leichte Blaukomponente und ist eine hellere, entsättigte Version des Vereinsblaus. Das dunkle Grau bildet einen guten Kontrast du Logo und Gestaltungselementen und sollte für diese als Hintergrund verwendet werden. Das mittlere Grau ist sowohl als Hintergrund von Gestaltungselementen, als auch als Übergang oder Rand für Elemente in den anderen Grautönen zu benutzen.
 
