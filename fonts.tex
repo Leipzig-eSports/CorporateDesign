@@ -7,3 +7,9 @@
 \newfontfamily\headingfont{Kanit}
 
 \titleformat*{\section}{\Large\headingfont}
+
+\setlength{\parindent}{0pt}
+
+\newcommand\alphabet{ABCDEFGHIJKLMNOPQRSTUVWXYZ\linebreak abcdefghijklmnopqrstuvwxyz}
+
+\newcommand\fonttest[1]{{\fontsize{18pt}{18pt}\fontspec{#1}\textbf{\alphabet}\linebreak\linebreak\alphabet\linebreak}}
