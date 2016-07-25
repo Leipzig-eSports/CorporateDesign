@@ -10,6 +10,6 @@
 
 \setlength{\parindent}{0pt}
 
-\newcommand\alphabet{ABCDEFGHIJKLMNOPQRSTUVWXYZ\linebreak abcdefghijklmnopqrstuvwxyz}
+\newcommand\alphabet{ABCDEFGHIJKLMNOPQRSTUVWXYZ\\abcdefghijklmnopqrstuvwxyz}
 
-\newcommand\fonttest[1]{{\fontsize{18pt}{18pt}\fontspec{#1}\textbf{\alphabet}\linebreak\linebreak\alphabet\linebreak}}
+\newcommand\fonttest[1]{\begin{samepage}{\fontsize{18pt}{18pt}\fontspec{#1}\textbf{\alphabet}\\\alphabet}\end{samepage}}
