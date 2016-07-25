@@ -12,4 +12,11 @@
 
 \newcommand\alphabet{ABCDEFGHIJKLMNOPQRSTUVWXYZ\\abcdefghijklmnopqrstuvwxyz}
 
-\newcommand\fonttest[1]{\begin{samepage}{\fontsize{18pt}{18pt}\fontspec{#1}\textbf{\alphabet}\\\alphabet}\end{samepage}}
+\newcommand\fonttest[1]{
+	\begin{figure}[H]
+	\fontsize{18pt}{18pt}
+	\fontspec{#1}
+	\textbf{\alphabet}\\
+	\alphabet
+	\end{figure}
+}

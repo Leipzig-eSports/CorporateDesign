@@ -37,12 +37,14 @@ Version \version
 
 Das folgende Dokument beschreibt das Corporate Design des Vereins Leipzig eSports e.V. und dient als Grundlage für die Gestaltung aller Dokumente die den Verein repräsentieren.
 
+\cleardoublepage
 \section{Der Name und das Kürzel}
 
 Der Verein tritt in der Regel mit dem vollen Vereinsnamen \emph{Leipzig eSports e.V.} auf. Zur Verbesserung des Leseflusses kann das \emph{e.V.} in nicht-formellen Texten wie Artikeln, Blog-Einträgen oder Forenposts weggelassen werden.
 
 Das Kürzel für Clan- oder Gruppenstrukturen in Spielen, Netzwerken, u.ä. lautet immer \emph{LES}. Aus technischen Gründen (Mindestlänge, bereits vergeben) kann es hier notwendig sein, dass von diesem Kürzel abgewichen wird. Ansonsten sind andere Schreibweisen oder Abkürzungen nicht zulässig.
 
+\cleardoublepage
 \section{Das Logo}
 
 Das Logo zeigt den vollen Schriftzug \emph{Leipzig eSports} in Gelb und Blau und den stilisierten Löwen in einer Wappenform.
@@ -86,22 +88,24 @@ Um das Logo herum ist ein Abstand einzuhalten der mindestens $\sfrac{1}{7}$ der 
 \caption{Beispiele für Kontrast auf verschiedenen Hintergründen}
 \end{figure}
 
+\cleardoublepage
 \section{Die Schriften}
 
-\begin{samepage}
 \subsection{Titillium Web}
-\fonttest{Titillium Web}
-
+\begin{samepage}
 Titillium Web ist die Standardschrift die für alle Texte genutzt wird.
+
+\fonttest{Titillium Web}
 \end{samepage}
 
 \subsection{Kanit}
 \begin{samepage}
-\fonttest{Kanit}
-
 Kanit wird für alle Überschriften und Titel und ausschlieslich in Fett verwendet.
+
+\fonttest{Kanit}
 \end{samepage}
 
+\cleardoublepage
 \section{Die Farben}
 
 \subsection{Primärfarben}
@@ -176,6 +180,7 @@ Dunkles Grau
 
 Die Sekundärfarben dienen hauptsächlich als Hintergrund- oder Füllfarben. Das helle Grau hat eine leichte Blaukomponente und ist eine hellere, entsättigte Version des Vereinsblaus. Das dunkle Grau bildet einen guten Kontrast du Logo und Gestaltungselementen und sollte für diese als Hintergrund verwendet werden. Das mittlere Grau ist sowohl als Hintergrund von Gestaltungselementen, als auch als Übergang oder Rand für Elemente in den anderen Grautönen zu benutzen.
 
+\cleardoublepage
 \section{Gestaltungselemente}
 
 \subsection{Hintergründe}
@@ -191,20 +196,45 @@ Alle Elemente deren Linien nicht parallel zu den Dokumenträndern verlaufen, sol
 \subsection{Streifen}
 Die Streifen dienen als Elemente zur Auflockerung von Hintergründen oder Übergängen. Sie sind um 35° gedreht und von beliebiger Breite und Anzahl und in beliebiger Farbe.\footnote{Sonstige Regeln bezüglich Kontrast usw. gelten natürlich trotzdem.}
 
-%bilder hier
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Docs/streifen_beispiel.png}
+\end{center}
+\caption{Verschiedene Streifen auf einfachem Hintergrund}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Docs/streifen_foto.png}
+\end{center}
+\caption{Weiße Streifen mit 20\% Deckkraft auf Fotohintergrund}
+\end{figure}
 
 \subsection{Textbox}
-Die Textbox dient vor allem der Abgrenzung von Text und Hintergrund. Sie besteht aus einem rechteckigen Feld in mittlerem Grau, das von zwei Streifen oben und unten begrenzt wird. Die Streifen sind rechts oben und links unten angewinkelt. Der obere Streifen hat immer eine der Primärfarben, der untere kann dunkles Grau oder auch eine Primärfarbe haben, je nach Hintergrund. Die Höhe der Streifen varriert nach Ausgabemedium und Auflösung, sollte aber $\sfrac{1}{4}$ der Gesamthöhe der Textbox nicht übersteigen. Einige Beispielwerte werden in der Tabelle gegeben.
+Die Textbox dient vor allem der Abgrenzung von Text und Hintergrund. Sie besteht aus einem rechteckigen Feld in mittlerem Grau, das von zwei Streifen oben und unten begrenzt wird. Die Streifen sind rechts oben und links unten angewinkelt.
 
-\begin{table}[hb]
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Docs/textbox.png}
+\end{center}
+\caption{Textbox mit gelbem Streifen}
+\end{figure}
+
+Der obere Streifen hat immer eine der Primärfarben, der untere kann dunkles Grau oder auch eine Primärfarbe haben, je nach Hintergrund. Die Höhe der Streifen varriert nach Ausgabemedium und Auflösung, sollte aber $\sfrac{1}{4}$ der Gesamthöhe der Textbox nicht übersteigen. Alle Textboxen in einem Dokument müssen jedoch die gleiche Höhe für den Streifen nutzen. Einige Beispielwerte werden in der Tabelle gegeben.
+
+\begin{table}[H]
 \begin{center}
 \begin{tabular}{ | l | r | }
 \hline
-  Anwendung & Höhe \\
+  \textbf{Anwendung} & \textbf{Höhe} \\
 \hline
   Website & 8px \\
 \hline
   Social Media Bilder & 8px \\
+\hline
+  Poster A4 & 0,5cm - $\sfrac{1}{4}$ der Textbox \\
+\hline
+  Poster A3 & 1cm - $\sfrac{1}{4}$ der Textbox \\
 \hline
 \end{tabular}
 \end{center}
@@ -213,10 +243,29 @@ Die Textbox dient vor allem der Abgrenzung von Text und Hintergrund. Sie besteht
 
 %mehr beispiele im Laufe der Zeit ansammeln, nachdem sich herausgestellt hat, was gut aussieht
 
+\cleardoublepage
 \section{Business vs. eSport}
 
 Für geschäftliche Dokumente wie Verträge, Briefe aber auch Visitenkarten oder offizielle Einladungen gelten besondere Regeln. Hier sollte auf die Verwendung der meisten Gestaltungselemente und Farben verzichtet werden. Idealerweise verwenden diese Dokumente nur schwarz, weiß und orange mit möglichst viel Weißraum und großen Flächen.
 
-%beispiele z.B. Visitenkarte, Briefbogen, E-Mail-Footer
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{Docs/Visitenkarte.eps}
+\end{center}
+\caption{Visitenkarte als Beispiel für businessorientiertes Design}
+\end{figure}
+
+\cleardoublepage
+\section{Ausnahmen und Abweichungen}
+
+Für bestimmte Medien darf von diesem Corporate Design Manual abgewichen werden. Dies beinhaltet unter anderem:
+
+\begin{itemize}
+\item Animationen und Intros
+\item Interaktive Designelemente
+\item Künstlerische Darstellungen wie z.B. Wallpaper
+\end{itemize}
+
+Die Abweichungen müssen sich jedoch auf das jeweilige Werk beschränken und sollten innerhalb des Werkes einheitlich sein. So ist z.B. ein 3D-Logo für ein Streamintro nur in diesem zu nutzen und nicht auf dem Trikot oder einem Flyer. Insgesamt sollten Abweichungen dieser Art allerdings auf ein Minimum begrenzt werden.
 
 \end{document}
